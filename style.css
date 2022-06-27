@@ -39,6 +39,16 @@ header {
   letter-spacing: 4px;
 }
 
+@media all and (min-width: 1200px) {
+  .wrapper {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  .aside1 h1 {
+    flex-shrink: 1;
+  }
+}
 @media all and (min-width: 800px) {
   .main {
     flex: 1;
